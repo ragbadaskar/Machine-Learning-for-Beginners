@@ -1,3 +1,4 @@
+import os
 import numpy as np
 import skimage
 from skimage import data, io, filters
