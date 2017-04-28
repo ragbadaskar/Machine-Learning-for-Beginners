@@ -9,7 +9,8 @@ from skimage.morphology import watershed
 # Load coins image data from skimage
 image = data.coins()
 # Load lena image from file system
-image = skimage.io.imread('notebooks/machine-learning-for-beginners/"4-Image Processing"/Dataset/lena.jpg',flatten=True)
+img_file = os.path.join('Dataset', 'lena.jpg')
+image = skimage.io.imread(img_file,flatten=True)
 io.imshow(image)
 io.show()
 
