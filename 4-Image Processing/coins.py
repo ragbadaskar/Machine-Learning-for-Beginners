@@ -11,7 +11,7 @@ from skimage.morphology import watershed
 image = data.coins()
 # Load lena image from file system
 img_file = os.path.join('Dataset', 'lena.jpg')
-image = skimage.io.imread(img_file,flatten=True)
+image = skimage.io.imread('../Dataset/lena.jpg',flatten=True)
 io.imshow(image)
 io.show()
 
